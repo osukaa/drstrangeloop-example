@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/osukaa/drstrangeloop-example#readme",
   "dependencies": {
-    "hapi": "^16.1.0"
+    "hapi": "^16.1.0",
+    "wreck": "^10.0.0"
   }
 }

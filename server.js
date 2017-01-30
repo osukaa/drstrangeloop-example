@@ -9,7 +9,7 @@ server.connection({
     port: 8000 
 });
 
-server.register(require('./resources/hello'), (err) => {
+server.register([require('./resources/hello'), require('./resources/posts')], (err) => {
 
     if (err) {
         console.error('Failed to load plugin:', err);
