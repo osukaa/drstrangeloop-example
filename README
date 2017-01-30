@@ -1,3 +1,5 @@
 # Dr Strangeloop Example
 
 RESTFul API built with hapi as an example
+
+Each of the steps taken to build a 2 route server `/hello` and `/hello/{name}` are available as git branches.
